@@ -1,0 +1,26 @@
+[project]
+name = "a5"
+version = "0.1.0"
+description = "Assignment 5 - Visualization"
+readme = "README.md"
+requires-python = "==3.13.5"
+dependencies = [
+    "jupyter",
+    "ipykernel",
+    "numpy",
+    "pandas",
+    "altair",
+    "vegafusion>=2.0.3",
+    "vl-convert-python>=1.8.0",
+    "pyarrow>=14.0.0",
+    "geopandas",
+    "shapely",
+    "pydytuesday",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.22,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = true
